@@ -65,7 +65,7 @@ def load_data(city, month, day):
     if day != 'all':
         df = df[df['day_of_week'] == day]
 
-    view = input('Would like to get a glimpse of the data based on your filter? Type in yes/no: ')
+    view = input('Would you like to get a glimpse of the data based on your filter? Type in yes/no: ')
     df1 = df
 
     while view != 'no':
