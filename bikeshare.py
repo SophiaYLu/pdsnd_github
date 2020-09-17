@@ -142,7 +142,6 @@ def trip_duration_stats(df):
     ave_time = df['Trip Duration'].mean()
     print('Mean Travel Time in Seconds:', ave_time)
 
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -174,7 +173,6 @@ def user_stats(df):
         print('\nThe most common year of birth:', common)
     else:
         print('No year of birth data available.')
-
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
